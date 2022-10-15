@@ -1,0 +1,15 @@
+.contact_wrapper{
+	display: flex;
+	margin-top: 30px;
+}
+.my_info{
+	display: inline-block;
+	width: 40%;
+}
+
+.adress , .telephon , .mail , .input {
+	display: inline-block;
+}
+.input{
+	width: 50%;
+}
