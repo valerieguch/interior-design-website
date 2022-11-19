@@ -3,11 +3,12 @@ body {
 }
 
 .img-container {
-  height: 100vh;
+  height: 120vh;
   overflow: hidden;
   position: relative;
   width: 100vw;
-  
+
+
 }
 
 .img-container img {
@@ -25,6 +26,7 @@ body {
 .img-container img.next {
   opacity: 1;
   z-index: 1;
+
 }
 
 .img-container img.prev {
@@ -42,4 +44,9 @@ a:hover{
 }
 .tel:hover{
 opacity: 70%;
+}
+
+.side img{
+  width: 50%;
+  opacity: 80%;
 }

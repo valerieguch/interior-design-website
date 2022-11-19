@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="animation.css">
   <link rel="stylesheet" href="about_me.css">
   <link rel="stylesheet" href="contacts.css">
+  <link rel="stylesheet" href="media_contacts.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,23 +21,31 @@
 
 <body>
 <header>
-  <div class="side-menu">
-    <div class="side">
-      <!-- <img src="horizontal_on_white_by_logaster.png" alt="" class = "logo"> -->
-      <h1>Светлана Кесян</h1>
-      <h2>дизайнер интерьера</h2>
+    <div class="side-menu">
+      <div class="side">
+        <h1>Светлана Кесян</h1>
+        <h2>дизайнер интерьера</h2>
+      </div>
+      <nav>
+        <!-- <div class="header_burger">
+          <span></span>
+        </div> -->
+        <div id = "nav" class="ul">
+        <ul class = "nav-list">
+          <li><a href="animation-test.html">Главная</a></li>
+          <li><a href="about_me.html">О нас</a></li>
+          <li><a href="">Проекты</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+          <li><div class="tel">+79891652807</div></li>
+        </ul>
+        <button id = "nav-btn" class="nav-button">
+          <img id = "nav-btn-img" src="NAV.svg" alt="">
+        </button>
+        </div>
+      </nav>
+      </div>
     </div>
-    <nav>
-      <ul>
-        <li><a href="animation-test.html">Главная</a></li>
-        <li><a href="about_me.html">О нас</a></li>
-        <li><a href="">Проекты</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
-      </ul>
-    </nav>
-    <div class="tel">+79183000355</div>
-  </div>
-</header>
+  </header>
 <main>
   <div class="container">
     <div class="contact_wrapper">
@@ -62,4 +71,5 @@
   </div>
 </main>
 <script src="https://kit.fontawesome.com/5837e64c3c.js" crossorigin="anonymous"></script>
+<script src = "button.js"></script>
 </body>
